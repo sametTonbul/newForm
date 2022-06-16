@@ -1,0 +1,109 @@
+body{
+    background-image:  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+form{
+    display: block;
+}
+
+label{
+    display: flex;
+    align-items:center;
+    color: white;
+    margin-top: 0.75em;
+    margin-bottom:0.75em ;
+    margin-left:0 ;
+    margin-right:0 ;
+}
+
+input{
+    display: block;
+}
+
+button{
+    margin-bottom: 2em;
+    background-color: darkgreen;
+    border: none;
+}
+
+p{
+    color: white;
+    margin-bottom: 0.25em;
+}
+
+
+/* classes*/
+
+.formContainer{
+    margin: 20px;
+    padding: 1em 12em 1em 12em;
+}
+
+.formHeader{
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(223, 209, 209);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.formFamily{
+    padding: 15px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 35em;
+    margin-right: 35em;
+    font-size: large;
+}
+
+.formEnter{
+    width: 400px;
+    height: 25px;
+}
+
+.formEnterHint{
+    font-size: 12px;
+}
+
+.formUsersSelects{
+    width: 400px;
+    height: 25px ;
+    
+}
+
+.formCheckboxes{
+    margin-right: 0.500rem;
+    min-height: 1rem;
+    min-width: 1rem;
+    
+}
+
+.usersRecommends{
+    margin-right: 0.500rem;
+    min-height: 1rem;
+    min-width: 1rem;
+    
+}
+
+.formTextArea{
+    width: 400px;
+    height: 150px;
+    resize: vertical;
+    
+}
+
+.formSubmitButton{
+    height: 40px;
+    width: 400px;
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="formContainer">
+
+    <header class="formHeader">
+      <h1 id="title" class="formHeaderText">freeCodeCamp Survey Form</h1>
+      <p id="description" class="formHeaderDescription">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    
+  
+
+   <form id="survey-form" >
+    
+    <div class="formFamily">
+      <label id="name-label" for="name">Name
+        <input type="text" id="name" name="name" class="formEnter" placeholder="Enter your name" required></input></label>
+      <label id="email-label" for="email">Email
+        <input type="email" id="email" name="email" class="formEnter" placeholder="Enter your Email" required></input></label>
+      <label id="number-label" for="number">Age <span class="formEnterHint">(optional)</span>
+       <input type="number" id="number" name="Age" class="formEnter" placeholder="Age" min="8" max="12"></input></label>    
+    </div>
+    
+    <div class="formFamily">
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label><input type="radio" name="recommends" value="Definitely" class="usersRecommends">Definitely</input></label>
+        <label><input type="radio" name="recommends" value="Mayne" class="usersRecommends">Maybe</input></label>
+        <label><input type="radio" name="recommends" value="Not sure" class="usersRecommends">Not sure</input></label>
+    </div>
+
+    <div class="formFamily">
+      <p>What is your favorite feature of freeCodeCamp?</p>       
+        <select id="dropdown" name="dropdown" class="formUsersSelects">
+          <option>Select an option</option>
+          <option>Challenges</option>
+          <option>Projects</option>
+          <option>Community</option>
+          <option>Open Source</option>
+        </select>
+    </div>
+
+    <div class="formFamily">  
+      <p> What would you like to see improved?<span class="formEnterHint">(Check all that apply)</span></p>
+        <label><input type="checkbox" name="Front-end Projects" value="Front-end Projects" class="formCheckboxes">Front-end Projects</input></label></label>
+        <label><input type="checkbox" name="Back-end Projects" value="Back-end Projects" class="formCheckboxes">Back-end Projects</input></label>
+        <label><input type="checkbox" name="Data Visualization" value="Data Visualization" class="formCheckboxes">Data Visualization</input></label>
+        <label><input type="checkbox" name="Challenges" value="Challenges" class="formCheckboxes">Challenges</input></label>
+        <label><input type="checkbox" name="Open Source Community" value="Open Source Community" class="formCheckboxes">Open Source Community</input></label>
+        <label><input type="checkbox" name="Gitter help rooms" value="Gitter help rooms" class="formCheckboxes">Gitter help rooms</input></label>
+        <label><input type="checkbox" name="Videos" value="Videos" class="formCheckboxes">Videos</input></label>
+        <label><input type="checkbox" name="City Meetups" value="City Meetups" class="formCheckboxes">City Meetups</input></label>
+        <label><input type="checkbox" name="Wiki" value="Wiki" class="formCheckboxes">Wiki</input></label>
+        <label><input type="checkbox" name="Forum" value="Forum" class="formCheckboxes">Forum</input></label>
+        <label><input type="checkbox" name="Additional Courses" value="Additional Courses" class="formCheckboxes">Additional Courses</input></label>
+     </div>
+
+     <div class="formFamily">
+      <p>Any comments or suggestions?</p>
+        <textarea id="usersCommnets" name="comment" class="formTextArea" placeholder="Enter your commment here..."></textarea>          
+     </div>
+
+     <div class="formFamily">
+       <button type="submit" id="submit" class="formSubmitButton">Submit</button>
+     </div>
+           
+           
+   </form> 
+  </div>         
+ </body>
+</html>
