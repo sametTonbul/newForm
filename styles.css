@@ -12,10 +12,12 @@ body{
 
 form{
     display: block;
+    box-sizing: border-box;
+    
 }
 
 label{
-    display: flex;
+    display: block;
     align-items:center;
     color: white;
     margin-top: 0.75em;
@@ -30,13 +32,14 @@ input{
 
 button{
     margin-bottom: 2em;
-    background-color: darkgreen;
+    background-color: rgb(71, 135, 71);
     border: none;
 }
 
 p{
     color: white;
     margin-bottom: 0.25em;
+    
 }
 
 
@@ -45,6 +48,7 @@ p{
 .formContainer{
     margin: 20px;
     padding: 1em 12em 1em 12em;
+    
 }
 
 .formHeader{
@@ -78,6 +82,7 @@ p{
 .formUsersSelects{
     width: 400px;
     height: 25px ;
+    display: block;
     
 }
 
@@ -85,6 +90,7 @@ p{
     margin-right: 0.500rem;
     min-height: 1rem;
     min-width: 1rem;
+    display: inline-block;
     
 }
 
@@ -92,6 +98,7 @@ p{
     margin-right: 0.500rem;
     min-height: 1rem;
     min-width: 1rem;
+    display:inline-block;
     
 }
 
@@ -99,11 +106,13 @@ p{
     width: 400px;
     height: 150px;
     resize: vertical;
+    display: inline-block;
     
 }
 
 .formSubmitButton{
     height: 40px;
     width: 400px;
+    display: block;
 }
 
